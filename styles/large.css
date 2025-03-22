@@ -1,0 +1,17 @@
+nav ul {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0; 
+    margin: 0;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+}
+
+.menu-icon {
+    display: none; /* Oculta o ícone em telas grandes */
+    cursor: pointer;
+}
+

@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+}
